@@ -1,5 +1,5 @@
 {
-  "name": "next_amazon_yt",
+  "name": "amazon-plus",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.1",
+    "@mui/material": "^5.14.2",
     "@reduxjs/toolkit": "^1.9.5",
     "@stripe/stripe-js": "^1.54.1",
     "@types/node": "20.3.3",
