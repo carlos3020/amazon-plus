@@ -9,6 +9,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import PinterestIcon from '@mui/icons-material/Pinterest';
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -27,16 +28,20 @@ const Footer = () => {
             </div>
             <ul className={styles.fotter__help__links}>
               <li className={styles.help__link}>
-                <a href="/"> Shipping</a>
+                <Link href="/" >Shipping</Link>
+                {/* <a href="/"> </a> */}
               </li>
               <li className={styles.help__link}>
-                <a href="/">Refund</a>
+                <Link href="/" >Refund</Link>
+                {/* <a href="/"></a> */}
               </li>
               <li className={styles.help__link}>
-                <a href="/">FAQ</a>
+                {/* <a href="/"></a> */}
+                <Link href="/" >FAQ</Link>
               </li>
               <li className={styles.help__link}>
-                <a href="/">Accessiblity</a>
+                {/* <a href="/"></a> */}
+                <Link href="/" >Accessiblity</Link>
               </li>
             </ul>
           </div>
